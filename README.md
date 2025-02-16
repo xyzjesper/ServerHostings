@@ -1,4 +1,5 @@
-<title>ServerHostings</title>title>
+<title>ServerHostings</title>
+
 # ServerHostings
 
 | Hoster           | 💰 Preis | 📅 Modell | 🔒 Stabilität | 🌐 Domains | 🖥️ Webhosting |
