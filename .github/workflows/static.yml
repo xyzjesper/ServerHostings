@@ -27,7 +27,7 @@ jobs:
           jekyll build --destination ./_site
 
       - name: Deployment auf gh-pages
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./_site
 
