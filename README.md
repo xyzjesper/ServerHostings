@@ -48,5 +48,7 @@ Legende:<br>
 Um weitere server zu adden nutzt bitte die "Pull Requests" und bei problemen oder wichtigen änderungen nutzt "Issues"
 Ich hoffe diese liste hilft euch.
 
+## Help to edit
+> https://github.com/jesforge/ServerHostings/
 
 > ![img](https://nexocrew.com/_next/image?url=%2Fstatic%2Fimages%2Flogo.png&w=32&q=75) **- A Nexocrew Creation**
