@@ -7,8 +7,7 @@ on:
 
 permissions:
   contents: write 
-  pages: write     
-
+  pages: write    
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,6 +22,9 @@ jobs:
       - name: Markdown in HTML umwandeln
         run: |
           mkdir output
+          # Konvertiere README.md und benenne es als index.html
+          pandoc -s README.md -o output/index.html
+          # Konvertiere alle anderen .md-Dateien in HTML
           for file in *.md; do
             [ -f "$file" ] || continue
             filename=$(basename "$file" .md)
@@ -32,5 +34,5 @@ jobs:
       - name: GitHub Pages veröffentlichen
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages 
+          branch: gh-pages  
           folder: output    
