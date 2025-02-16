@@ -41,7 +41,7 @@ Legende:<br>
 🔒 Stabilität: ⚪ Stabiles Hosting<br>
 🌐 Domains: 🟡 Hat Domains<br>
 🖥️ Webhosting: ⚫ Web Hosting<br>
-⚙️ Server: 🟤 Hat Server
+⚙️ Server: 🟤 Hat Server<br>
 ❌ Nicht vorhanden
 
 
